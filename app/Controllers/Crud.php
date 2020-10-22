@@ -74,5 +74,6 @@ class Crud extends controller
     public function get()
     {
         echo "get";
+        echo "tambahan";
     }
 }
