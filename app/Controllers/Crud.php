@@ -70,4 +70,9 @@ class Crud extends controller
             return redirect()->to('/crud');
         }
     }
+
+    public function get()
+    {
+        echo "get";
+    }
 }
